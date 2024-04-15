@@ -29,7 +29,7 @@ const userSchema = new Schema(
             type: String, //cloudanary url
             required: true,
         },
-        coverimage:{
+        coverImage:{
             type: String  //cloudnary url
         },
         watchHistory:[
