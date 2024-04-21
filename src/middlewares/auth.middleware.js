@@ -4,7 +4,7 @@ import jwt from "jsonwebtoken"
 import { User } from "../models/user.models"
 
 
-
+//res use nahuda _ use hunxa
 export const verifyJWT = asynchandler(async(req,res,next)=>{
   try {
      const token = req.cookie?.accessToken || req.header("Authorization")?.replace("Bearer ","")
